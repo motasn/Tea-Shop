@@ -33,9 +33,9 @@
     <link rel="shortcut icon" href="./images/tea-1.png" type="image/x-icon">
 </head>
 <body>
-    <header class="flex max-w-screen-xl mx-auto pt-8 px-16 lg:px-28">
+    <header class="lg:flex max-w-screen-xl mx-auto pt-8 px-16 lg:px-28">
         <div class="space-y-4 ">
-            <h1 class="font-bold text-5xl">It's good <br>tea time at <br>The Tea House</h1>
+            <h1 class="font-bold text-3xl lg:text-5xl">It's good <br>tea time at <br>The Tea House</h1>
       <p class=" text-gray-500">Tea and Botanical Solutions Supplier  Give Optimum Satisfaction To Your Taste Buds.</p>
       
       <button class="bg-gradient-to-r from-orange-500 to-red-500  text-white py-3 px-2 rounded-lg">Explore More <i class="fa-solid fa-arrow-right  -rotate-45	"></i> </button>
@@ -46,17 +46,17 @@
         <!-- Card content -->
          <div class="relative">
             <div>
-                <img src="./images/banner.png" alt="">
+                <img  src="./images/banner.png" alt="">
             </div>
             <!-- card -->
-             <div class="flex absolute items-center  bg-white shadow-lg py-3 px-2 top-32 md:top-64  left-20  ">
+             <div class="flex absolute items-center  bg-white shadow-lg py-3 px-2 top-20 md:top-72  left-20  ">
              
-                <div class="text-3xl  text-orange-500">
+                <div class=" text-xl lg:text-3xl  text-orange-500">
                     <i class="fa-solid fa-star"></i>
                 </div>
           
                 <div class="ml-3">
-                   <h3 class="text-3xl font-bold">5.00</h3>
+                   <h3 class="text-xl lg:text-3xl font-bold">5.00</h3>
                    <p class="text-gray-500">Trust Pilot Ratings</p>
                 </div>
              </div>
@@ -65,8 +65,38 @@
  
     </header>
       
-    <main>
+    <main class="max-w-screen-xl mx-auto mt-24 pt-8 px-16 lg:px-28">
+     <section>
+      <div class="space-y-6 my-8">
+        <h1 class=" text-center text-3xl lg:text-5xl font-bold">Our Featured Products</h1>
+        <p class="text-gray-500  text-center ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+      </div>
 
+ <!-- tea card -->
+      <div class="grid grid-cols-1 lg:grid-cols-4 text-center gap-8">
+        <div class="rounded-lg px-4 py-4 shadow-lg bg-gray-100 text-center overflow-hidden">
+           <img class="mx-auto pt-3" src="./images/tea-1.png" alt="">
+           <h3 class="text-2xl">Milk Tea</h3>
+           <p class="text-gray-400">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="rounded-lg px-4 py-4 shadow-lg bg-gray-100 text-center overflow-hidden">
+           <img class="mx-auto pt-3" src="./images/tea-2.png" alt="">
+           <h3 class="text-2xl">Black Tea</h3>
+           <p class="text-gray-400">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="rounded-lg px-4 py-4 shadow-lg bg-gray-100 text-center overflow-hidden">
+           <img class="mx-auto pt-3" src="./images/tea-3.png" alt="">
+           <h3 class="text-2xl ">Lemon Tea</h3>
+           <p class="text-gray-400">Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="rounded-lg px-4 py-4 shadow-lg bg-gray-100 text-center overflow-hidden">
+           <img class="mx-auto pt-3" src="./images/tea-4.png" alt="">
+           <h3 class="text-2xl">Green Tea</h3>
+           <p class="text-gray-400">Creamer could be replaced by fresh milk</p>
+        </div>
+      </div>
+
+     </section>
     </main>
     <footer>
 
